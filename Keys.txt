@@ -1,0 +1,56 @@
+print("person".islower())
+
+isalpha() to check if a string contains only characters and is 
+not empty 
+isalnum() to check if a string contains characters or digits and
+ is not empty
+isdecimal() to check is a strong contains digits and is not
+empty
+lower() to get a lowercase version of a string 
+islower() to check if a string is lowercase
+upper() to get an uppercase version of a string 
+isupper() to check if a string is uppercase
+tittle() to get a capatilized version of a string 
+startswith() to check if a string starts with a specific 
+substring
+endswith()to check if a string ends with a specific substring
+replace() to replace a part of the string
+split() to split a string on a specific character separator 
+strip() to trim the white space from a string
+join() to append new letters to a string
+find() to find the position of a substring 
+
+# If you see a hashtag (#), it means that the rest of the line is a comment
+# Comments are not executed by Python
+variable_character = 'M'
+# a string is a sequence of characters
+# a string can be enclosed in single or double quotes
+variable_int = 42
+# a float is a number with a decimal point
+variable_float = 3.14
+# a boolean is a data type that can be either True or False
+variable_boolean = True  # BINARY
+# a list is mutable, meaning it can be changed after creation
+variable_list_int = [1, 2, 3, 4, 5]
+variable_list_string = ["apple", "banana", "cherry"]
+variable_list_mixed = [1, "apple", 3.14, True]
+# A turple is immutable, meaning it cannot be changed after creation
+variable_tuple = (1, 2, 3)
+variable_tuple_mixed = (1, "apple", 3.14, True)
+# a dictionary is a collection of key-value pairs
+# it is mutable, meaning it can be changed after creation
+variable_dict = {"key1": "value1", "key2": "value2"}
+# a set is a collection of unique elements
+# it is mutable, meaning it can be changed after creation
+variable_set = {1, 2, 3, 4, 5}
+variable_string = "Hello, World!"
+
+# How to use git
+
+### Instruction
+
+- `cd python-start`
+- `git pull`
+- `git add .`
+- `git commit -m "insert short message here"`
+- `git push`
